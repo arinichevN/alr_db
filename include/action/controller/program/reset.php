@@ -9,7 +9,7 @@ class reset {
     }
 
     public static function execute($p) {
-        \acp\sendPackI1(ACP_CMD_RESET, $p);
+        \acp\requestSendI1List(ACP_CMD_PROG_RESET, $p);
     }
 
 }
